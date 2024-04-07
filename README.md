@@ -1,14 +1,9 @@
-☘ GalleryDroid
+Mobile Gallery App(Android)
 =======
 
-A simple and useful Android Gallery based on [Picasso](https://github.com/square/picasso)  and [PhotoView](https://github.com/chrisbanes/PhotoView).
+A simple and useful Android Gallery.
 
-[![JitPack](https://jitpack.io/v/jdsdhp/gallery-droid.svg)](https://jitpack.io/#jdsdhp/gallery-droid) 
-[![API](https://img.shields.io/badge/API-17%2B-red.svg?style=flat)](https://android-arsenal.com/api?level=17) 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Twitter](https://img.shields.io/badge/Twitter-@jdsdhp-9C27B0.svg)](https://twitter.com/jdsdhp)
-
-## Including in your project
+# How to Use
 
 #### Gradle
 
@@ -24,7 +19,7 @@ dependencies {
 }
 ```
 
-## Basic Usage
+## Basic Sample
 Gallery Screen|Picture Screen |Inmersive Screen
 :-:|:-:|:-:
 ![](art/art-01.jpg) | ![](art/art-02.jpg) | ![](art/art-03.jpg)
@@ -76,7 +71,7 @@ Add this to your AndroidManifest.xml file if you are using the default activity 
   android:configChanges="orientation|screenSize"
   android:theme="@style/Theme.MaterialComponents.NoActionBar" />
 ```
-## Advanced Usage
+## Advanced Sample
 Custom Gallery | Custom Layout | Custom Transformation
 :-:|:-:|:-:
 ![](art/art-04.jpg) | ![](art/art-05.jpg) | ![](art/art-06.jpg)
@@ -147,25 +142,3 @@ override fun onClick(picture: Picture, position: Int){
         .commit()  
 }
 ```
-## Sample project
-
-It's very important to check out the sample app. Most techniques that you would want to implement are already implemented in the examples.
-
-View the sample app's source code [here](https://github.com/jdsdhp/gallery-droid/tree/master/app)
-
-License
-=======
-
-    Copyright (c) 2021 jesusd0897.
-    
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    
-        http://www.apache.org/licenses/LICENSE-2.0
-    
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
